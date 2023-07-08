@@ -1,7 +1,7 @@
-``KAMABAY`` WHOIS Updated by Jay
+``KAMABAY`` WHOIS (updated by JAY)
 --------------------------
 **Installation**
-- Just updated the instructions in case you want to use my updated code.
+Just updated the instructions in case you want to use my updated code.
 .. code :: python
 
         #windows
@@ -17,13 +17,21 @@
 ``URL`` `https://github.com/techdjay/ipwho`_
 
 **using command line type** ``ipwho <ip>`` see below the example
-**using import package** ``from ipwhois import ipwhois``
 
+- Please Note: Updated to show only the below instructions as most people want this output regularly:
+----------------------------------------
+# ipwhois 8.8.8.8
+IP: 8.8.8.8
+Organization: Google LLC
+ISP: Google LLC
+----------------------------------------
+
+**using import package** ``from ipwho import ipwho``
 .. code :: python
 
-        >>> from ipwhois import ipwhois
+        >>> from ipwho import ipwho
         >>>
-        >>> ipwhois('0') # zero string default local IP
+        >>> ipwho('0') # zero string default local IP
         {
         "asn":"AS4818",
         "city": "Batu Pahat",
