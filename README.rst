@@ -1,7 +1,7 @@
-``KAMABAY`` WHOIS (updated by JAY)`` ``
+``KAMABAY WHOIS updated by JAY``
 --------------------------
 **Installation**
-Just updated the instructions in case you want to use my updated code.
+I just updated the instructions in case you want to use my updated code.
 .. code :: python
 
         #windows
@@ -12,19 +12,19 @@ Just updated the instructions in case you want to use my updated code.
         $ git clone https://github.com/techdjay/ipwho 
         $ cd ipwhois && pip3 install requests
         $ clear && python3 main.py
-        
+   
 
 ``URL`` `https://github.com/techdjay/ipwho`_
 
 **using command line type** ``ipwho <ip>`` see below the example
 
-- Please Note: Updated to show only the below instructions as most people want this output regularly:
-----------------------------------------
-# ipwhois 8.8.8.8
+Please Note that this has been updated to show only the below instructions, as most people want this output regularly:
+
+ipwhois 8.8.8.8
 IP: 8.8.8.8
 Organization: Google LLC
 ISP: Google LLC
-----------------------------------------
+
 
 **using import package** ``from ipwho import ipwho``
 .. code :: python
@@ -63,7 +63,6 @@ ISP: Google LLC
         "timezone_name": "Malaysia Time",
         "type": "IPv4",
         }
-
 
 
 ``@copyright 25052021``
