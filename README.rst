@@ -1,37 +1,41 @@
-``KAMABAY WHOIS updated by JAY``
+``KAMABAY`` WHOIS updated by Jay
 --------------------------
+``I just updated the instructions in case you want to use my updated code``
+
 **Installation**
-I just updated the instructions in case you want to use my updated code.
+
 .. code :: python
 
         #windows
         pip install git+https://github.com/techdjay/ipwho
         #linux & termux
-        pip install git+https://github.com/techdjay/ipwho
+        pip3 install git+https://github.com/techdjay/ipwho
         # OR
         $ git clone https://github.com/techdjay/ipwho 
         $ cd ipwhois && pip3 install requests
         $ clear && python3 main.py
-   
+        
 
-``URL`` `https://github.com/techdjay/ipwho`_
+``URL`` `https://pypi.org/project/ipwho/`_
 
-**using command line type** ``ipwho <ip>`` see below the example
+**using command line type** ``ipwho ip-address``
 
-Please Note that this has been updated to show only the below instructions, as most people want this output regularly:
+**Please Note** ``that this has been updated to show only the below instructions, as most people want this output regularly``
 
-ipwhois 8.8.8.8
-IP: 8.8.8.8
-Organization: Google LLC
-ISP: Google LLC
-
-
-**using import package** ``from ipwho import ipwho``
 .. code :: python
 
-        >>> from ipwho import ipwho
+		# ipwhois 8.8.8.8
+		IP: 8.8.8.8
+		Organization: Google LLC
+		ISP: Google LLC
+
+**using import package** ``from ipwhois import ipwhois``
+
+.. code :: python
+
+        >>> from ipwhois import ipwhois
         >>>
-        >>> ipwho('0') # zero string default local IP
+        >>> ipwhois('0') # zero string default local IP
         {
         "asn":"AS4818",
         "city": "Batu Pahat",
@@ -63,6 +67,7 @@ ISP: Google LLC
         "timezone_name": "Malaysia Time",
         "type": "IPv4",
         }
+
 
 
 ``@copyright 25052021``
