@@ -6,10 +6,10 @@
 
 .. code :: python
 
-        #windows
-        pip install git+https://github.com/techdjay/ipwho
-        #linux & termux
-        pip3 install git+https://github.com/techdjay/ipwho
+        #windows/Linux
+        pip install ipwho
+        #linux & termux if above does not work
+        pip3 install ipwho
         # OR
         $ git clone https://github.com/techdjay/ipwho 
         $ cd ipwhois && pip3 install requests
@@ -70,9 +70,5 @@
 
 
 
-``@copyright 25052021``
+``@copyright 08072023``
 
-``mail`` `lexyong66@gmail.com`_ 
-
-.. _lexyong66@gmail.com : lexyong66@gmail.com
-.. _https://pypi.org/project/kamabay-ipwhois/ : https://pypi.org/project/kamabay-ipwhois/
