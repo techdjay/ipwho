@@ -18,6 +18,8 @@
 
 ``URL`` `https://pypi.org/project/ipwho/`_
 
+``Original Author URL`` `https://github.com/ExsoKamabay/ipwhois`_
+
 **using command line type** ``ipwho ip-address``
 
 **Please Note** ``that this has been updated to show only the below instructions, as most people want this output regularly``
@@ -71,4 +73,6 @@
 
 
 ``@copyright 08072023``
+
+
 
