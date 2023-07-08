@@ -1,18 +1,18 @@
 ``KAMABAY`` WHOIS Updated by Jay
 --------------------------
 **Installation**
-
+** Just updated the instructions in case you want to use my updated code. **
 .. code :: python
 
         #windows
-        pip install kamabay-ipwhois
+        pip install git+https://github.com/techdjay/ipwho
         #linux & termux
-        pip3 install kamabay-ipwhois
+        pip install git+https://github.com/techdjay/ipwho
         # OR
-        $ git clone https://github.com/ExsoKamabay/ipwhois 
+        $ git clone https://github.com/techdjay/ipwho
         $ cd ipwhois && pip3 install requests
         $ clear && python3 main.py
-        
+       
 
 ``URL`` `https://pypi.org/project/kamabay-ipwhois/`_
 
